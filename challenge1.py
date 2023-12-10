@@ -15,8 +15,8 @@ def get_user_input():
 
     return hour, minute, period
 
-user_hour, user_minute, user_period = get_user_input()
+user_hour, user_minute, user_period = get_user_input() #Get user input
 
-result = convert_to_24_hour_format(user_hour, user_minute, user_period)
+result = convert_to_24_hour_format(user_hour, user_minute, user_period) # Convert to 24-hour format
 
-print("The time in 24-hour format is:", result)
+print("The time in 24-hour format is:", result) # Display the result
